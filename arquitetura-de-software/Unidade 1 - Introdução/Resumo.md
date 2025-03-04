@@ -70,6 +70,51 @@ Para resolver essas situações-problema, é necessário aplicar os conceitos do
 
 Ao aplicar essas ações, você utilizará os conceitos do padrão IEEE 1471-2000 para resolver as situações-problema do estudo de caso. Essa abordagem permitirá a criação de uma arquitetura de software robusta e eficiente para a plataforma de streaming, considerando as necessidades dos stakeholders e seguindo as diretrizes estabelecidas. Lembre-se de utilizar as ferramentas vistas em aula como insumos para identificar soluções adequadas e apresentar uma abordagem eficaz na resolução dos desafios propostos.
 
+Organizando a resolução:
+
+Visão Arquitetural - Escalabilidade 
+-Usuários simultâneos;
+-Distribuição de carga;
+-Dimensionamento horizontal;
+-Tecnologias escaláveis.
+
+Visão Arquitetural - Disponibilidade e Confiabilidade
+-Resiliência do sistema;
+-Redundância;
+-Monitoramento;
+-Recuperação de falhas.
+
+-Conteúdos: vídeos, músicas e podcasts;
+-Recursos: recomendações personalizadas, criação de playlist.
+
+Visão Arquitetural - Flexibilidade e Extensibilidade
+-Novos tipos de conteúdos;
+-Recursos adicionais.
+
+Resolução do Estudo de Caso
+Para resolver essas situações-problema, é necessário aplicar os conceitos do padrão IEEE 1471-2000. A seguir, estão algumas sugestões de ações a serem realizadas:
+Situação-problema 1: garantir a escalabilidade da plataforma para lidar com muitos usuários simultâneos.
+
+Identificação dos stakeholders: realizar uma análise dos stakeholders envolvidos, como usuários finais, produtores de conteúdo, anunciantes e administradores da plataforma.
+Definição das visões arquiteturais: elaborar visões arquiteturais relevantes, como a visão de implantação, descrevendo a infraestrutura de hardware e software necessária para suportar a plataforma, incluindo servidores, serviços de armazenamento e serviços de streaming.
+Consideração da escalabilidade, disponibilidade e flexibilidade: Avaliar soluções tecnológicas escaláveis, como a utilização de serviços em nuvem e arquiteturas de microsserviços.
+Implementar mecanismos de balanceamento de carga, monitoramento de desempenho e recuperação de falhas para garantir a disponibilidade e confiabilidade do serviço.
+Situação-Problema 2: assegurar a disponibilidade e confiabilidade do serviço de streaming.
+
+Elaboração dos documentos arquiteturais: desenvolver documentos arquiteturais, como diagramas de contexto, diagramas de componentes e diagramas de sequência, para descrever a arquitetura proposta.
+Consideração da escalabilidade, disponibilidade e flexibilidade: implementar mecanismos de balanceamento de carga, monitoramento de desempenho e recuperação de falhas para garantir a disponibilidade e confiabilidade do serviço.
+Situação-Problema 3: oferecer uma ampla variedade de conteúdos e recursos na plataforma de streaming.
+
+Definição das visões arquiteturais: elaborar visões arquiteturais relevantes, como a visão de informação, detalhando a estrutura de dados utilizada, como metadados de vídeos, músicas e informações do usuário.
+Elaboração dos documentos arquiteturais: desenvolver documentos arquiteturais, como diagramas de contexto, diagramas de componentes e diagramas de sequência, para descrever a arquitetura proposta;
+Consideração da escalabilidade, disponibilidade e flexibilidade: adotar padrões e práticas de desenvolvimento que permitam a extensibilidade e a modularidade do sistema, facilitando a inclusão de novos conteúdos e recursos.
+Ao aplicar essas ações, você utilizará os conceitos do padrão IEEE 1471-2000 para resolver as situações-problema do estudo de caso. Essa abordagem permitirá a criação de uma arquitetura de software robusta e eficiente para a plataforma de streaming, considerando as necessidades dos stakeholders e seguindo as diretrizes estabelecidas. Lembre-se de utilizar as ferramentas vistas em aula como insumos para identificar soluções adequadas e apresentar uma abordagem eficaz na resolução dos desafios propostos.
+
+ 
+
+
+
+
 ### **Resumo Visual**
 
 ![](https://conteudo.colaboraread.com.br/202302/WHITE_LABEL/ARQUITETURA_DE_SOFTWARE/LIVRO/U1/assets/img/fig_a1_02.jpg)
